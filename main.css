@@ -124,34 +124,34 @@ button:hover{
 
 
 /*Inicio Ajustes AboutUs*/
-#aboutUs{
-    margin-top: 90px;
+.background-about{
+    background-color: #0D0D0D;
     padding: 50px 0;
-    background-color:#0D0D0D;
+    margin-top: 80px;
+    color: #F2F2F2;
+    text-align: justify;
 }
 
 #aboutUs  h2{
     font-family: 'Jost', sans-serif;
     font-weight: 800;
-    color: #F2F2F2;
-    padding-bottom: 16PX;
+    padding-bottom: 18px;
 }
 
 #aboutUs h3{
     font-family: 'PT Serif', serif;
     font-weight: 600; 
-    margin-bottom: 8px;
     font-size: 2em;
 }
 
-#aboutUs article{
-    color: #F2F2F2;
-    margin-top: 20px;
-    text-align: justify;
+.about-us{
+    display: grid;
+    grid-template-columns: 47.5% 47.5%;
+    column-gap: 5%;
 }
 
 #aboutUs img{
-    width: 50%;
+    width: 100%;
     border-radius: 10px;
     box-shadow: 10px 10px 10px rgb(0, 0, 0,0.20);
 }
@@ -170,9 +170,6 @@ footer a{
     text-decoration: none;
 }
 /*Fim Ajustes Footer*/
-
-
-
 
 
 
@@ -240,9 +237,10 @@ footer a{
         padding: 25px 0;
     }
 
-    #Product >h2{
+    #Product h2{
         font-family: 'Jost', sans-serif;
         font-weight: 800;
+        font-size: 2em;
     }
 
     #Product article{
@@ -285,31 +283,25 @@ footer a{
     /*Fim Ajustes Produtos*/
 
     /*Inicio Ajustes AboutUs*/
-
-    #aboutUs article{
-        color: #F2F2F2;
-        margin-top: 20px;
-        text-align: justify;
-    }
-
     #aboutUs  h2{
-        font-style: 2em;
+        padding-bottom: 18px;
+        font-size: 2em;
     }
     
     #aboutUs h3{
-        font-family: 'PT Serif', serif;
-        font-weight: 600; 
         font-size: 2em;
+        padding-top: 16px;
     }
-
-    #aboutUs img{
-        width: 100%;
+    
+    .about-us{
+        display: block;
+        column-gap: 5%;
     }
     /*Fim Ajustes AboutUs*/
 
     /*Inicio Ajustes Footer*/
-    footer a{
-        font-size: .8em;
+    footer a {
+        font-size: .9em;
     }
     /*Fim Ajustes Footer*/
 
@@ -327,6 +319,23 @@ footer a{
     .carousel-imagem{
         overflow-x:hidden;
     }
+
+    /*Inicio Ajustes AboutUs*/
+    #aboutUs  h2{
+        padding-bottom: 18px;
+        font-size: 2em;
+    }
+    
+    #aboutUs h3{
+        font-size: 2em;
+        padding-top: 16px;
+    }
+    
+    .about-us{
+        display: block;
+        column-gap: 5%;
+    }
+    /*Fim Ajustes AboutUs*/
 
     footer{
         font-size: .9em;
